@@ -1,7 +1,9 @@
-// Variable overrides first
-$primary: #900;
-$enable-shadows: true;
-$prefix: "mo-";
+$font-family-sans-serif: "Montserrat",sans-serif;
+$body-color: #ffffff;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
 
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
