@@ -70,6 +70,11 @@ hr,
     text-align: right;
     font-size: 1.7em;
 }
+.svg--line{
+    position: relative;
+    top: -1em;
+}
+
 
 /* footer */
 .footer--container{
@@ -102,6 +107,18 @@ ul.footer{
 
 /* media query */
 @media (max-width: 480px) {
+    .intro--text{
+        font-size:1.1em;
+        text-align: left;
+    }
+    .svg--line{
+        margin-left: 0;
+        position: relative;
+        top: -1em;
+    }
+    .svg--line img{
+        width: 120px;
+    }
 .copyright--txt{
     text-align: left;
     margin-top: 4rem;
@@ -120,6 +137,12 @@ ul.footer{
 .navmenu_prolinks,
 .menu-container{
     display: none;
+}
+
+.svg--line{
+}
+.svg--line img{
+    width: 120px;
 }
 .content-one,
 .content-two,
