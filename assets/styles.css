@@ -113,8 +113,10 @@ ul.footer{
   gap: 2.5rem;
   margin-right: 1em;
 }
+
 }
 @media (max-width: 760px) {
+
 .navmenu_prolinks,
 .menu-container{
     display: none;
