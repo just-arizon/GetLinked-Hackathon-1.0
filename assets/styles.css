@@ -43,7 +43,7 @@ nav{
 div.blob--svg{
     position: absolute;
     top: 2em;
-    left: 10rem;
+    /* left: 10rem; */
     /* background-color: aqua; */
 }
 div.blob--svg img{
@@ -74,8 +74,27 @@ hr,
     position: relative;
     top: -1em;
 }
-
-
+/*  */
+.hero-container{
+ display: flex;
+ justify-content: space-between;
+}
+.hero-title{
+    z-index: 1;
+    word-spacing: .2rem;
+}
+.hero-title
+{
+    flex: 1;
+}
+.hero-image
+{
+    flex: 1;
+}
+.hero-image img{
+    width: 500px;
+    height: auto;
+}
 /* footer */
 .footer--container{
   display: flex;
@@ -111,6 +130,12 @@ ul.footer{
         font-size:1.1em;
         text-align: left;
     }
+    div.blob--svg{
+        position: absolute;
+        top: 2em;
+        left: .2rem;
+        width: 144px;
+    }
     .svg--line{
         margin-left: 0;
         position: relative;
@@ -133,7 +158,13 @@ ul.footer{
 
 }
 @media (max-width: 760px) {
-
+    .intro--text{
+        text-align: center;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+    }
 .navmenu_prolinks,
 .menu-container{
     display: none;
@@ -142,7 +173,6 @@ div.blob--svg{
     position: absolute;
     top: 2em;
     left: .2rem;
-    /* background-color: aqua; */
 }
 div.blob--svg img{
     width: 388px;
@@ -153,6 +183,7 @@ div.blob--svg img{
 .svg--line img{
     width: 120px;
 }
+
 .content-one,
 .content-two,
 .content-three{
