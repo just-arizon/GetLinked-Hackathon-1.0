@@ -1,5 +1,12 @@
 $font-family-sans-serif: "Montserrat",sans-serif;
 $body-color: #ffffff;
+$body-bg: #130e28;
+$border-color: #d434fe;
+$primary-bg-subtle:    #903aff;
+$primary-text-emphasis:   #fff;
+$accordion-button-icon: url('https://api.iconify.design/typcn/plus.svg?color=%23d434fe');
+$accordion-button-active-icon: url('https://api.iconify.design/typcn/plus.svg?color=%23d434fe');
+
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/_functions";
@@ -12,4 +19,11 @@ $body-color: #ffffff;
     .nav-link:hover {
       color: #903aff; // Change the link color to red
     }
+  }
+  
+  .accordion-item{
+    background-color: #903aff;
+    .accordion-body{
+        background-color: #130e28;
+      }
   }
