@@ -79,6 +79,18 @@ hr,
   text-align: right;
   font-size: 1.7em;
 }
+.intro--text::before{
+  content: "";
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  width: 36%;
+  height: 100px;
+  /* background: #000; */
+  background-image: url(/assets/img/Creative\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .svg--line {
   position: relative;
   top: -1em;
@@ -208,6 +220,7 @@ ul.footer {
     display: flex;
     flex-direction: column;
   }
+
   .small_screen-menu-container {
     width: 100%;
     position: fixed;
@@ -228,6 +241,14 @@ ul.footer {
   }
    .active {
       left: 0;
+    }
+    .intro--text::before{
+      content: "";
+      position: absolute;
+      top: 7rem;
+      left: 0;
+      width: 50%;
+      background-size: 15%;
     }
   .content h1{
     text-align: center;
