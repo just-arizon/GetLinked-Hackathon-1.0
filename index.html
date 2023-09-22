@@ -17,7 +17,7 @@
 
   <!-- styles links -->
   <link href="/css/main.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 <!-- fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,11 +91,14 @@
               </div>
             </div>
           </nav>
-          <div class="blob--svg">
-            <img src="/assets/img/Blob.svg" alt="">
+          <div class="container">
+              <div class="blob--svg">
+                <img src="/assets/img/Blob.svg" alt="">
+              </div>
           </div>
-  <hr>
+
     </header>
+      <hr>
  <!-- Homepage -->
  <section>
     <div class="container">
@@ -109,8 +112,16 @@
     <div class="container">
         <div class="row hero-container ">
             <div class="hero-title py-4">
-                <h1>getlinked Tech Hackathon <span style="color:#D434FE;">1.0</span></h1>
-                <p class="fw_custom-css mb-5">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize.</p>
+                <div class="content d-flex">
+                    <h1 class="">getlinked Tech Hackathon <span style="color:#fe34b9c4;">1.0<img src="/assets/img/chain-9365116-7621444.svg" alt="" class="img-chain">
+                        <img src="/assets/img/strike.svg" alt="" class="img-strike">
+                    </span>
+                    
+                    </h1>
+                    <span class="svg--chain"></span>
+                    <span class="svg--strike"></span>
+                </div>
+                <p class="fw_custom-css mb-5 para-txt">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize.</p>
                 <div class="call-to-action">
                     <div
                       class="d-flex"
@@ -124,8 +135,18 @@
                       </a>
                     </div>
                   </div>
+
             </div>
+  
             <div class="hero-image">
+               
+                <div class="metrix-container">
+                    <!-- particles.js container --> 
+                    <div id="particles-js"></div> 
+                </div>
+                <div class="metrix-img">
+                    <img src="/assets" alt="">
+                </div>
                 <img src="/assets/img/man-wearing-smart-glasses-touching-virtual-screen 1.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -223,12 +244,15 @@
  </footer>
 
  <!-- Scripts -->
-  <script src="assets/main.js"></script>
+ <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="assets/js/app.js"></script>
   <script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
   crossorigin="anonymous"
 ></script>
+<!-- Particle.JS -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

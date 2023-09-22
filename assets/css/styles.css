@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid lightgreen; */
+}
+:root {
+  --bg-clr: #130e28;
+  --txt-highlight: #d434fe;
+  --blend-clr: #903aff;
+  --mini-font: "Poppins", sans-serif;
+  --gradient-text: linear-gradient(
+    93deg,
+    #fe34b9c4 20%,
+    rgba(212, 52, 254, 0.7679446778711485) 44%,
+    rgba(144, 58, 255, 0.7679446778711485) 61%
+  );
+}
+body {
+  background-color: var(--bg-clr);
+}
+nav {
+  margin-top: 1.2em;
+}
+.logo--theme {
+  color: aliceblue;
+  font-size: 1.7em;
+}
+.fw_custom-css {
+  color: aliceblue;
+  font-family: var(--mini-font);
+  font-weight: 300;
+}
+.purple-text {
+  color: var(--txt-highlight);
+  font-family: var(--mini-font);
+}
+.custom--text {
+  color: var(--txt-highlight);
+  font-family: var(--mini-font);
+}
+div.blob--svg {
+  position: absolute;
+  top: 2em;
+  /* left: 10rem; */
+  /* background-color: aqua; */
+}
+div.blob--svg img {
+  width: 488px;
+  height: auto;
+}
+.cta-btn {
+  padding: 7px 30px;
+  font-family: var(--mini-font);
+  border-radius: 3px;
+  background-image: var(--gradient-text);
+  color: aliceblue;
+  outline: none;
+  border: none;
+}
+hr,
+.parallel-line {
+  color: var(--blend-clr);
+  font-weight: bold;
+}
+.intro--text {
+  font-style: italic;
+  font-family: var(--mini-font);
+  text-align: right;
+  font-size: 1.7em;
+}
+.svg--line {
+  position: relative;
+  top: -1em;
+}
+/*  */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+.metrix-container {
+  width: 500px;
+  height: 380px;
+  /* background: #000; */
+  position: absolute;
+}
+.hero-title {
+  z-index: 1;
+  word-spacing: 0.2rem;
+}
+.hero-title {
+  flex: 1;
+}
+.hero-image {
+  flex: 1;
+}
+.hero-image img {
+  width: 500px;
+  height: auto;
+}
+/* particles css */
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0000;
+  background-image: url("/assets/img/Blob.svg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.svg--chain,
+.svg--strike{
+  display: flex;
+  align-items: flex-end;
+}
+.img-chain,
+.img-strike{
+  width: 50px;
+  height: auto;
+}
+/* footer */
+.footer--container {
+  display: flex;
+}
+.footer-item {
+  list-style: none;
+}
+ul.footer {
+  padding-left: 0;
+}
+.footer--container {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-one,
+.content-two,
+.content-three {
+  flex: 1;
+  margin-right: 5rem;
+}
+.footer--ul {
+  display: flex;
+  justify-content: end;
+}
+
+/* media query */
+@media (max-width: 480px) {
+  .intro--text {
+    font-size: .89999em;
+    text-align: left;
+  }
+  .metrix-container {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+  }
+  .svg--line {
+    margin-left: 0;
+    position: relative;
+    top: -1em;
+  }
+  .svg--line img {
+    width: 120px;
+  }
+   .img-chain,
+  .img-strike{
+    width: 20px;
+    height: auto;
+  }
+  .copyright--txt {
+    text-align: left;
+    margin-top: 4rem;
+    padding: 0;
+  }
+  .footer--container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(220px, auto));
+    gap: 2.5rem;
+    margin-right: 1em;
+  }
+}
+@media (max-width: 760px) {
+  .intro--text {
+    text-align: center;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content h1{
+    text-align: center;
+  }
+  .para-txt{
+    text-align: center;
+  }
+  .call-to-action{
+    display: flex;
+    justify-content: center;
+  }
+  .navmenu_prolinks,
+  .menu-container {
+    display: none;
+  }
+  div.blob--svg {
+    position: absolute;
+    top: 8em;
+  }
+  div.blob--svg img {
+    width: 200px;
+    height: auto;
+  }
+  .svg--line {
+  }
+  .svg--line img {
+    width: 120px;
+  }
+  .img-chain,
+  .img-strike{
+    width: 40px;
+    height: auto;
+  }
+  .content-one,
+  .content-two,
+  .content-three {
+    flex: 1;
+    margin: 0;
+  }
+  .footer--container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(220px, auto));
+    gap: 2.5rem;
+    margin-right: 1em;
+  }
+  .footer--ul {
+    display: flex;
+    justify-content: start;
+  }
+}
