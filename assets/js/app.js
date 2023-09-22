@@ -13,9 +13,6 @@ menuItems.forEach(item => {
     })
 });
 
-
-
-
 particlesJS("particles-js", {
   particles: {
     number: { value: 100, density: { enable: true, value_area: 800 } },
@@ -88,3 +85,4 @@ update = function () {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
