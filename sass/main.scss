@@ -7,3 +7,9 @@ $body-color: #ffffff;
 
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+// Override navbar link colors
+.navbar {
+    .nav-link:hover {
+      color: #903aff; // Change the link color to red
+    }
+  }
