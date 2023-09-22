@@ -38,6 +38,7 @@ nav {
 .purple-thin {
   color: #fff;
   font-family: var(--mini-font);
+  line-height: 2em;
 }
 .purple-thick {
   color: var(--txt-highlight);
@@ -179,9 +180,27 @@ canvas {
   justify-content: center;
 }
 
+
 .wrapper-context{
   flex: 1;
 
+}
+div.safeguard{
+  position: absolute;
+  z-index: -1;
+}
+div.safeguard img{
+  position: absolute;
+  top: -4em;
+  left: 2em;
+}
+.policy-container{
+  border: 2px solid var(--txt-highlight);
+  border-radius: 5px;
+  line-height: 2.3em;
+}
+.licence-policy{
+  line-height: 1.5em;
 }
 /* footer */
 .footer--container {
@@ -333,6 +352,7 @@ ul.footer {
   width: 300px;
   position: absolute;
 }
+
   .content-one,
   .content-two,
   .content-three {
