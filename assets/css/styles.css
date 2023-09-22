@@ -35,8 +35,16 @@ nav {
   color: var(--txt-highlight);
   font-family: var(--mini-font);
 }
-.custom--text {
+.purple-thin {
+  color: #fff;
+  font-family: var(--mini-font);
+}
+.purple-thick {
   color: var(--txt-highlight);
+  font-family: var(--);
+}
+.custom--text {
+  color: #FF26B9;
   font-family: var(--mini-font);
 }
 div.blob--svg {
@@ -154,6 +162,26 @@ canvas {
 .img-strike{
   width: 50px;
   height: auto;
+}
+.element-container{
+  flex: 1;
+}
+.element-context{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.element-wrapper{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-context{
+  flex: 1;
+
 }
 /* footer */
 .footer--container {
