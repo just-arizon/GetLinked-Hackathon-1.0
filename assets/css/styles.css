@@ -113,6 +113,9 @@ hr,
 .hero-title {
   z-index: 1;
   word-spacing: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 .hero-title {
   flex: 1;
@@ -120,10 +123,13 @@ hr,
 .hero-image {
   flex: 1;
 }
-/* .hero-image img {
-  width: 500px;
-  height: auto;
-} */
+.call-to-action{
+  margin-bottom: 1.5em;
+}
+#digital-timer{
+  font-family: var(--mini-font);
+  font-size: 3em;
+}
 /* particles css */
 canvas {
   display: block;
@@ -177,9 +183,17 @@ ul.footer {
 
 /* media query */
 @media (max-width: 480px) {
+
   .intro--text {
     font-size: .89999em;
     text-align: left;
+  }
+  .call-to-action{
+    margin-bottom: .8em;
+  }
+  #digital-timer{
+    text-align: center;
+    font-size: 1.8em;
   }
   .metrix-container,
   .metrix-img {
