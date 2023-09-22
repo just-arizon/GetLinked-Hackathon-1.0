@@ -78,10 +78,14 @@ hr,
   display: flex;
   justify-content: space-between;
 }
-.metrix-container {
+.metrix-container{
   width: 500px;
   height: 380px;
   /* background: #000; */
+  position: absolute;
+}
+.metrix-img img{
+  width: 500px;
   position: absolute;
 }
 .hero-title {
@@ -94,10 +98,10 @@ hr,
 .hero-image {
   flex: 1;
 }
-.hero-image img {
+/* .hero-image img {
   width: 500px;
   height: auto;
-}
+} */
 /* particles css */
 canvas {
   display: block;
@@ -107,7 +111,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #0000;
+  /* background-color: #0000; */
   background-image: url("/assets/img/Blob.svg");
   background-repeat: repeat;
   background-size: cover;
@@ -155,7 +159,8 @@ ul.footer {
     font-size: .89999em;
     text-align: left;
   }
-  .metrix-container {
+  .metrix-container,
+  .metrix-img {
     width: 300px;
     height: 280px;
     position: absolute;
@@ -225,6 +230,10 @@ ul.footer {
     width: 40px;
     height: auto;
   }
+  .metrix-img img{
+  width: 300px;
+  position: absolute;
+}
   .content-one,
   .content-two,
   .content-three {
