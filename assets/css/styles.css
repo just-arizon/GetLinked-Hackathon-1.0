@@ -408,15 +408,38 @@ ul.footer {
     left: -160px;
 }
 .rond {
-    left: 20px;
+    display: none;
 }
 .box {
   width: 290px;
   padding: 10px;
-    left: calc(67% - 50px)
 }
 .sub-b1 {
   top: 100px;
+  left: calc(50% + 30px);
+  color: #FF26B9;
+
+}
+.sub-b2 {
+  top: 410px;
+  left: calc(50% + 30px);
+  color: #FF26B9;
+
+}
+.sub-b3 {
+  top: 710px;
+  left: calc(50% + 30px);
+  color: #FF26B9;
+
+}
+.sub-b4 {
+  top: 1020px;
+  left: calc(50% + 30px);
+  color: #FF26B9;
+
+}
+.sub-b5 {
+  top: 1320px;
   left: calc(50% + 30px);
   color: #FF26B9;
 
@@ -564,12 +587,12 @@ div.safeguard img{
   .box {
       left: calc(67% - 50px)
   }
-  .sub-b1 {
+  /* .sub-b1 {
     top: 100px;
     left: calc(50% + 30px);
     color: #FF26B9;
   
-  }
+  } */
 }
 @media (min-width: 993px) {
   .overall-container{
