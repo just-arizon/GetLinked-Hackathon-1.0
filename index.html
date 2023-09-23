@@ -26,7 +26,7 @@
 </head>
 
 <body>
-<header>
+<header id=">
       <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light mb-4">
             <div
@@ -163,6 +163,10 @@
           </div>
 
     </header>
+    <button id="back-to-top-btn" class="btn btn-primary">
+        <iconify-icon icon="bxs:up-arrow" style="color: white;"></iconify-icon>
+    </button>
+
       <hr>
  <!-- Homepage -->
  <section>
@@ -465,7 +469,7 @@
 
 
                     </div>
-                                      <div class="element-container pt-5">
+                                      <div class="element-container pt-2">
                       <img src="/assets/img/cwok_casual_21 1.svg" alt="" class="img-fluid">
                                       </div>
                   </div>
@@ -761,10 +765,26 @@
 
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 
-  <!-- Vue script link -->
-  <script
-  src="https://unpkg.com/vue@3/dist/vue.global.js">
-</script>
+  <!-- Jquery script link -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  // Show or hide the button based on the user's scroll position
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 100) {
+          $('#back-to-top-btn').fadeIn();
+      } else {
+          $('#back-to-top-btn').fadeOut();
+      }
+  });
+  
+  // Scroll to the top when the button is clicked
+  $('#back-to-top-btn').click(function(){
+      $('html, body').animate({scrollTop : 0},800);
+      return false;
+  });
+});
+  </script>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <!-- icons -->
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>

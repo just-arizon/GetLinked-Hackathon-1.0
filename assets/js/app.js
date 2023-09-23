@@ -1,3 +1,6 @@
+
+
+
 // hamburger menu
 const hamburger = document.querySelector(".hamburger");
 const menuItems = document.querySelectorAll(".nav-item")
