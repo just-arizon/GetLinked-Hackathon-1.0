@@ -53,7 +53,9 @@ nav {
 div.blob--svg {
   position: absolute;
   top: 2em;
-
+  left: -2em;
+  z-index: -1;
+  
 }
 .blob-context{
   position: relative;
@@ -63,6 +65,8 @@ span.blob--svg
   position: absolute;
   top: -9em;
   left: -2rem;
+  z-index: -1;
+
 }
 div.blob--svg img,
 span.blob--svg img{
@@ -77,7 +81,11 @@ span.star{
 span.star img {
   width: 20px;
 }
-
+.blob--emt{
+  background-image: url(/assets/img/gray-star.svg);
+  background-position: 20% 30%;
+  background-repeat: no-repeat;
+}
 /*  */
 .cta-btn {
   padding: 7px 30px;
@@ -478,9 +486,19 @@ ul.footer {
     position: absolute;
     top: 8em;
   }
-  div.blob--svg img {
+  span.blob--svg{
+    top: -2.5em;
+    z-index: -1;
+  }
+  div.blob--svg img,
+  span.blob--svg img{
     width: 200px;
     height: auto;
+  }
+  .blob--emt{
+    background-image: url(/assets/img/gray-star.svg);
+    background-position: 60% 5%;
+    background-repeat: no-repeat;
   }
   .svg--line {
   }
