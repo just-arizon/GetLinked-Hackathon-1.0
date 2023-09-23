@@ -554,7 +554,7 @@ div.safeguard img{
       right: 200px;
   }
   .rond {
-      /* left: calc(-39% + 200px); */
+      left: calc(-39% + 200px);
       display: none;
   }
   .box {
