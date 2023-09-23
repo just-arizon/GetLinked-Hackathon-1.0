@@ -48,16 +48,37 @@ nav {
   color: #FF26B9;
   font-family: var(--mini-font);
 }
+
+/* blob and star section */
 div.blob--svg {
   position: absolute;
   top: 2em;
-  /* left: 10rem; */
-  /* background-color: aqua; */
+
 }
-div.blob--svg img {
+.blob-context{
+  position: relative;
+}
+span.blob--svg
+  {
+  position: absolute;
+  top: -9em;
+  left: -2rem;
+}
+div.blob--svg img,
+span.blob--svg img{
   width: 488px;
   height: auto;
 }
+span.star{
+  position: absolute;
+  left: 16em;
+  top: 3em;
+}
+span.star img {
+  width: 20px;
+}
+
+/*  */
 .cta-btn {
   padding: 7px 30px;
   font-family: var(--mini-font);
