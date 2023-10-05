@@ -20,7 +20,7 @@ body {
   background-color: var(--bg-clr);
 }
 nav {
-  margin-top: 1.2em;
+  margin-top: .8em;
 }
 #back-to-top-btn {
   display: none;
@@ -171,7 +171,7 @@ hr,
   flex: 1;
 }
 .call-to-action{
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
 }
 #digital-timer{
   font-family: var(--mini-font);
@@ -186,11 +186,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background-color: #0000; */
-  background-image: url("/assets/img/Blob.svg");
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  
 }
 .svg--chain,
 .svg--strike{
