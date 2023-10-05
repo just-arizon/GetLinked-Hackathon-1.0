@@ -22,7 +22,11 @@ My experience in the hackathon taught me valuable lessons:
 
 - The ability to rapidly learn and adapt to new technologies and tools.
 - How to approach problem-solving with creativity and innovation.
-- All the designs in the homepage didn't show up in the live preview. I guess it's because I'm using a free hosting platform. But incase you would like to see the full prevew, [Watch the Video](https://www.youtube.com/watch?v=your-video-id)
+- All the designs in the homepage didn't show up in the live preview. I guess it's because I'm using a free hosting platform. But incase you would like to see the full prevew,
+- 
+
+
+https://github.com/just-arizon/GetLinked-Hackathon-1.0/assets/102190787/560be6d3-d53a-4865-b686-e75f4b836313
 
 
 ## Conclusion
