@@ -365,6 +365,7 @@ ul.footer {
 }
 
 /* media query */
+
 @media (max-width: 480px) {
   .intro--text {
     font-size: 0.89999em;
@@ -440,6 +441,23 @@ ul.footer {
     margin-right: 1em;
   }
 }
+@media(min-width: 280px) and (max-width: 390px){
+
+  /* Timeline Section */
+    .ligne {
+      position: relative;
+      left: -140px;
+    }
+    .rond {
+      /* display: none; */
+      width: 35px;
+      height: 35px;
+    font-size: 20px;
+    left: -6%;
+    transform: translateY(57%);
+    }
+}
+
 @media (max-width: 760px) {
   .intro--text {
     text-align: center;
